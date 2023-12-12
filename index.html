@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>intro-component-with-sign-up-form</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="text__block">
+        <h1 class="text__h1">Learn to code by watching others</h1>
+        <div class="p__box">
+          <p class="text__p">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+      </section>
+      <section class="form__block">
+        <div class="free__block">
+          <a href="" class="free__link">
+            <span class="span__bold">Try it free 7 days</span> then
+            <span class="span__regular">$20/mo. thereafter</span>
+          </a>
+        </div>
+        <form action="" class="form">
+          <div class="form__item">
+            <input
+              id="fname"
+              type="text"
+              class="input__item input__name"
+              placeholder="First Name"
+            />
+            <img src="./img/Group 11.png" alt="" class="error__img none" />
+            <small class="small none">First Name cannot be empty</small>
+          </div>
+          <div class="form__item">
+            <input
+              id="lname"
+              type="text"
+              class="input__item input__lastname"
+              placeholder="Last Name"
+            />
+            <img src="./img/Group 11.png" alt="" class="error__img none" />
+            <small class="small none">Last Name cannot be empty</small>
+          </div>
+          <div class="form__item">
+            <input
+              id="mail"
+              type="email"
+              class="input__item input__mail"
+              placeholder="Email Address"
+            />
+            <img src="./img/Group 11.png" alt="" class="error__img none" />
+            <small class="small none">Email cannot be empty</small>
+          </div>
+          <div class="form__item">
+            <input
+              id="password"
+              type="password"
+              class="input__item input__password"
+              placeholder="Password"
+            />
+            <img src="./img/Group 11.png" alt="" class="error__img none" />
+            <small class="small none">Password cannot be empty</small>
+          </div>
+          <button type="submit" class="form__btn">CLAIM YOUR FREE TRIAL</button>
+          <p class="footer__text">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </form>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
